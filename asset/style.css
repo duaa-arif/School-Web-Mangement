@@ -1,0 +1,413 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+body {
+font-family: 'Droid Arabic Kufi', serif;
+font-size: larger;
+}
+body, html {
+height: 100%;
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+}
+.slideshow-text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 100;
+font-size: 80px;
+width: 100vw;
+text-align: center;
+color: #FD841F;
+font-family: 'Droid Arabic Kufi', sans-serif;
+font-weight: 100;
+pointer-events: none;
+text-transform: uppercase;
+/* letter-spacing: 20px; */
+line-height: 0.8;
+
+@media (max-width: 767px) {
+font-size: 40px;
+}
+
+}
+.element {
+height: 150px;
+width: 150px;
+margin: 0 auto;
+background-color: red;
+animation-name: stretch;
+animation-duration: 1.5s; 
+animation-timing-function: ease-out; 
+animation-delay: 0;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+animation-fill-mode: none;
+animation-play-state: running;
+}
+
+@keyframes stretch {
+0% {
+transform: scale(.3);
+background-color: red;
+border-radius: 100%;
+}
+50% {
+background-color: orange;
+}
+100% {
+transform: scale(1.5);
+background-color: yellow;
+}
+}
+.cstm-height-card .card-img-top {
+height: 100px;
+object-fit: cover;
+}
+.blockquote-custom {
+position: relative;
+font-size: 1.1rem;
+}
+
+.blockquote-custom-icon {
+width: 50px;
+height: 50px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+position: absolute;
+top: -25px;
+left: 50px;
+}
+
+body {
+    background-color: #FFCDD2;
+}
+
+.bg-light {
+    background-color: #89C4E1;
+}
+
+#logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.navbar-brand {
+    padding: 14px 20px;
+    font-size: 16px;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.nav-item {
+    padding: 6px 14px;
+    text-align: center;
+}
+
+.nav-link {
+    padding-bottom: 10px; 
+}
+
+.v-line {
+    background-color: gray;
+    width: 1px;
+    height: 20px;
+}
+
+.navbar-collapse.collapse.in {
+    display: block !important;
+}
+
+@media (max-width: 576px) {
+    .nav-item {
+        width: 100%;
+        text-align: left;
+    }
+
+    .v-line {
+        display: none;
+    }
+}
+.slideshow-text {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 100;
+font-size: 80px;
+width: 100vw;
+text-align: center;
+color: #FD841F;
+font-family: 'Droid Arabic Kufi', sans-serif;
+font-weight: 100;
+pointer-events: none;
+text-transform: uppercase;
+/* letter-spacing: 20px; */
+line-height: 0.8;
+
+@media (max-width: 767px) {
+font-size: 40px;
+}
+}
+
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+img{
+    width: 50px;
+    height: 80px;
+}
+h2{
+    color: white;
+    font-family: 'amiri', serif;
+}
+div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 80%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  h1{
+    text-align: center;
+    text-decoration: #B08BBB;
+  }
+  
+.classes{
+    @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+  
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    font-family:'Droid Arabic Kufi', serif; ;
+  }      .card-notify-badge {
+              text-transform: uppercase;
+          width: 200px;
+          height: 40px;
+          border-radius: 80px;
+          font-size: 16px;
+          line-height: 35px;
+          text-align: center;
+          border: 3px solid #e6de08;
+          display: block;
+          text-decoration: none;
+          margin: 20px auto 1px auto;
+          color: #000;
+          overflow: hidden;        
+          position: relative;
+          background-color: #e6de08;
+      }
+      .card-text{
+        width: 200px;
+      }
+body {
+background: #eff0eb;
+background-image: url('https://i.postimg.cc/MTbfnkj6/bg.png');
+background-size: cover;
+background-repeat: no-repeat;
+}
+body{margin-top:20px;}
+.footer_area {
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+webkit-box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
+    box-shadow: 0 8px 48px 8px rgba(47, 91, 234, 0.175);
+    padding:60px;
+}
+.footer_area .row {
+    margin-left: -25px;
+    margin-right: -25px;
+}
+.footer_area .row .col,
+.footer_area .row .col-1,
+.footer_area .row .col-10,
+.footer_area .row .col-11,
+.footer_area .row .col-12,
+.footer_area .row .col-2,
+.footer_area .row .col-3,
+.footer_area .row .col-4,
+.footer_area .row .col-5,
+.footer_area .row .col-6,
+.footer_area .row .col-7,
+.footer_area .row .col-8,
+.footer_area .row .col-9,
+.footer_area .row .col-auto,
+.footer_area .row .col-lg,
+.footer_area .row .col-lg-1,
+.footer_area .row .col-lg-10,
+.footer_area .row .col-lg-11,
+.footer_area .row .col-lg-12,
+.footer_area .row .col-lg-2,
+.footer_area .row .col-lg-3,
+.footer_area .row .col-lg-4,
+.footer_area .row .col-lg-5,
+.footer_area .row .col-lg-6,
+.footer_area .row .col-lg-7,
+.footer_area .row .col-lg-8,
+.footer_area .row .col-lg-9,
+.footer_area .row .col-lg-auto,
+.footer_area .row .col-md,
+.footer_area .row .col-md-1,
+.footer_area .row .col-md-10,
+.footer_area .row .col-md-11,
+.footer_area .row .col-md-12,
+.footer_area .row .col-md-2,
+.footer_area .row .col-md-3,
+.footer_area .row .col-md-4,
+.footer_area .row .col-md-5,
+.footer_area .row .col-md-6,
+.footer_area .row .col-md-7,
+.footer_area .row .col-md-8,
+.footer_area .row .col-md-9,
+.footer_area .row .col-md-auto,
+.footer_area .row .col-sm,
+.footer_area .row .col-sm-1,
+.footer_area .row .col-sm-10,
+.footer_area .row .col-sm-11,
+.footer_area .row .col-sm-12,
+.footer_area .row .col-sm-2,
+.footer_area .row .col-sm-3,
+.footer_area .row .col-sm-4,
+.footer_area .row .col-sm-5,
+.footer_area .row .col-sm-6,
+.footer_area .row .col-sm-7,
+.footer_area .row .col-sm-8,
+.footer_area .row .col-sm-9,
+.footer_area .row .col-sm-auto,
+.footer_area .row .col-xl,
+.footer_area .row .col-xl-1,
+.footer_area .row .col-xl-10,
+.footer_area .row .col-xl-11,
+.footer_area .row .col-xl-12,
+.footer_area .row .col-xl-2,
+.footer_area .row .col-xl-3,
+.footer_area .row .col-xl-4,
+.footer_area .row .col-xl-5,
+.footer_area .row .col-xl-6,
+.footer_area .row .col-xl-7,
+.footer_area .row .col-xl-8,
+.footer_area .row .col-xl-9,
+.footer_area .row .col-xl-auto {
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.single-footer-widget {
+    position: relative;
+    z-index: 1;
+}
+.single-footer-widget .copywrite-text a {
+    color: #747794;
+    font-size: 1rem;
+}
+.single-footer-widget .copywrite-text a:hover,
+.single-footer-widget .copywrite-text a:focus {
+    color: #3f43fd;
+}
+.single-footer-widget .widget-title {
+    margin-bottom: 1.5rem;
+}
+.single-footer-widget .footer_menu li a {
+    color: #747794;
+    margin-bottom: 1rem;
+    display: block;
+    font-size: 1rem;
+}
+.single-footer-widget .footer_menu li a:hover,
+.single-footer-widget .footer_menu li a:focus {
+    color: #3f43fd;
+}
+.single-footer-widget .footer_menu li:last-child a {
+    margin-bottom: 0;
+}
+
+.footer_social_area {
+    position: relative;
+    z-index: 1;
+}
+.footer_social_area a {
+    border-radius: 50%;
+    height: 40px;
+    text-align: center;
+    width: 40px;
+    display: inline-block;
+    background-color: #f5f5ff;
+    line-height: 40px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-right: 10px;
+}
+.footer_social_area a i {
+    line-height: 36px;
+}
+.footer_social_area a:hover,
+.footer_social_area a:focus {
+    color: #ffffff;
+}
+
+@-webkit-keyframes bi-cycle {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+@keyframes bi-cycle {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+    }
+}
+ol li, ul li {
+    list-style: none;
+}
+
+ol, ul {
+    margin: 0;
+    padding: 0;
+}

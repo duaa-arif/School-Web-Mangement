@@ -1,0 +1,8 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "launch": {
+    
+       "git.enabled":true,
+       "git.path": "C:/xampp/mingw64/bin/git.exe"
+    }
+}
